@@ -1,0 +1,500 @@
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(88, 30);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 56);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(88, 30, 56);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(88, 60);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 30, 88, 60);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(88, 60, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 30, 88, 60, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 69);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(88, 60, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 30, 88, 60, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 22);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 30, 22);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 22, 56, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 22, 56, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 22, 56, 36, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(22, 19);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 22, 19, 56, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 22, 19, 56, 36, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(19, 1);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(22, 19, 1);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 19, 1, 22, 56, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 19, 1, 22, 56, 36, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+left-root-right traversal: 1 19 22 30 36 56 60 69 88 91 
+
+height of the avl-tree: 4
+
+we start from this avl-tree:
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 19, 1, 22, 56, 36, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+now we add 3 more nodes:
+
+1. adding node 48...
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(36, 48);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 36, 48);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\textcolor{blue}{balancing node 56...}
+
+\textcolor{blue}{rotate left:}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 48, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\textcolor{blue}{rotate right:}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 19, 1, 22, 48, 36, 56);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 19, 1, 22, 48, 36, 56, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+we get:
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 19, 1, 22, 48, 36, 56, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+we get:
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 19, 1, 22, 48, 36, 56, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+2. adding node 50...
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(56, 50);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(48, 36, 56, 50);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 19, 1, 22, 48, 36, 56, 50);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 30, 19, 1, 22, 48, 36, 56, 50, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\textcolor{blue}{balancing node 60...}
+
+\textcolor{blue}{rotate left:}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 48, 30, 19, 1, 22, 36, 56, 50, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\textcolor{blue}{rotate right:}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(60, 56, 50, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+we get:
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(48, 30, 19, 1, 22, 36, 60, 56, 50, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+3. adding node 23...
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(22, 23);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(19, 1, 22, 23);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 19, 1, 22, 23, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\textcolor{blue}{balancing node 30...}
+
+\textcolor{blue}{rotate left:}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 22, 19, 1, 23, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\textcolor{blue}{rotate right:}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(30, 23, 36);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(48, 22, 19, 1, 30, 23, 36, 60, 56, 50, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
+we get:
+
+\begin{center}
+\begin{asy}
+import binarytree;
+picture pic;
+binarytree st = searchtree(48, 22, 19, 1, 30, 23, 36, 60, 56, 50, 88, 69, 91);
+draw(pic, st, condensed=true);
+add(pic.fit(), (0, 0));
+\end{asy}
+\end{center}
+
